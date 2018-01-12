@@ -1,0 +1,15 @@
+# Information about a wave.  Each line contains:
+# Path number, Invader type, time to wait before next invader is created.
+# Path number is just an integer: if there is only 1 path in this level, then it should be 1; if
+#   there are 2 paths, the number should be 1 or 2.
+# Invader type is a string: "Ogre", "Troll", "A", "B".  The code needs to know what to look for.
+# Time is in milliseconds. So, 1000 means after issuing this invader, wait 1 second before the
+#   next one is issued.  Can use 0 to create multiple invaders at the same time.
+
+1, Ogre, 500
+1, Ogre, 250
+1, Ogre, 1000
+1, Troll, 500
+1, Troll, 200
+1, Ogre, 0
+1, Ogre, 2300

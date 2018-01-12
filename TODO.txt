@@ -1,0 +1,4 @@
+Need to create different kinds of towers, using Abstract Factory, probably.
+Need to create projectiles, as a property of a tower.
+Need to move display() of invaders to a behavior, so that it can be easily
+   set when an invader is created in the factory.
